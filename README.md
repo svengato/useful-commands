@@ -11,6 +11,7 @@
 [JavaScript](#javascript)<br>
 [Libraries](#libraries)<br>
 [Macintosh configuration issues](#macintosh-configuration-issues)<br>
+[NVIDIA](#nvidia)<br>
 [Octave](#octave)<br>
 [OpenSSH](#openssh)<br>
 [Python](#python)<br>
@@ -281,6 +282,32 @@ Remove Macintosh file attributes<br>
 [Macintosh keyboard shortcuts](https://support.apple.com/en-us/HT201236)
 
 <hr>
+
+<!-- ------------------------------ NVIDIA ------------------------------ -->
+
+#### NVIDIA
+
+Test for NVIDIA graphics processor<br>
+`$ lspci | grep -i nvidia`
+
+Test persistence daemon<br>
+`systemctl status nvidia-persistenced`
+
+Test and verify compiler<br>
+`nvcc -V`
+
+Test device properties (see also https://www.seimaxim.com/kb/gpu/nvidia-smi-cheat-sheet)<br>
+`nvidia-smi`
+
+Install and build CUDA sample code<br>
+```
+git clone https://github.com/NVIDIA/cuda-samples.git
+cd cuda-samples
+make
+```
+
+Run deviceQuery<br>
+`./Samples/1_Utilities/deviceQuery/deviceQuery`
 
 <!-- ------------------------------ Octave ------------------------------ -->
 
