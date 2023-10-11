@@ -309,6 +309,8 @@ make
 Run deviceQuery<br>
 `./Samples/1_Utilities/deviceQuery/deviceQuery`
 
+<hr>
+
 <!-- ------------------------------ Octave ------------------------------ -->
 
 #### Octave
