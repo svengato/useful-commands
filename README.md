@@ -186,6 +186,9 @@ Check reverse package dependencies<br>
 Uninstall a package<br>
 `brew uninstall <package>`
 
+Remove obsolete package dependencies<br>
+`brew autoremove`
+
 Pin a package that you do not want upgraded<br>
 `brew pin <package>`
 
