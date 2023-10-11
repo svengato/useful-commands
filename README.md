@@ -368,6 +368,11 @@ Poor man's natural sort in SQL<br>
 
 #### System commands
 
+Check operating system<br>
+`cat /etc/os-release`
+<br>or<br>
+`hostnamectl`
+
 Disk free space<br>
 `df [-h]`
 
