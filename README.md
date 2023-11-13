@@ -17,6 +17,7 @@
 [Python](#python)<br>
 [SQL](#sql)<br>
 [System commands](#system-commands)<br>
+[Tesseract](#tesseract)<br>
 [Text commands](#text-commands)<br>
 [Verifying signatures](#verifying-signatures)<br>
 
@@ -423,6 +424,16 @@ Symbolic links: Show location of original files<br>
 
 Directory size<br>
 `du -sh <directory>`
+
+<hr>
+
+<!-- ------------------------------ Tesseract ------------------------------ -->
+
+#### Tesseract
+
+Optical character recognition on an image file<br>
+(N = 4 for single column, 6 for general text)<br>
+`tesseract <image_filename> <output.txt> --psm <N>`
 
 <hr>
 
