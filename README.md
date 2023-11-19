@@ -16,6 +16,7 @@
 [Octave](#octave)<br>
 [OpenSSH](#openssh)<br>
 [Python](#python)<br>
+[screen](#screen)<br>
 [SQL](#sql)<br>
 [System commands](#system-commands)<br>
 [Tesseract](#tesseract)<br>
@@ -388,6 +389,42 @@ Secure upload<br>
 
 Install required modules<br>
 `pip[3] install -r requirements.txt`
+
+<hr>
+
+<!-- ------------------------------ screen ------------------------------ -->
+
+#### screen
+
+Create a screen session<br>
+`screen -S <session_name>`
+
+List sessions<br>
+`screen -ls`
+
+Reattach a session<br>
+`screen -r <session_name_or_number>`
+
+Reattach the last session<br>
+`screen -x`
+
+Split screen vertically<br>
+`Ctrl-A S`
+
+Switch to a window<br>
+`Ctrl-A <number>`
+
+List available windows<br>
+`Ctrl-A "`
+
+Switch between windows<br>
+`Ctrl-A tab`
+
+Destroy the current view<br>
+`Ctrl-A X`
+
+Detach a session<br>
+`Ctrl-A d`
 
 <hr>
 
