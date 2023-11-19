@@ -2,6 +2,7 @@
 
 ## Useful Commands
 
+[Archiving](#archiving)<br>
 [cron](#cron)<br>
 [FFmpeg](#ffmpeg)<br>
 [File viewing and editing](#file-viewing-and-editing)<br>
@@ -20,6 +21,30 @@
 [Tesseract](#tesseract)<br>
 [Text commands](#text-commands)<br>
 [Verifying signatures](#verifying-signatures)<br>
+
+<hr>
+
+<!-- ------------------------------ Archiving ------------------------------ -->
+
+#### Archiving
+
+Extract from zip archive<br>
+`unzip -q <source.zip> -d <destination directory>`
+
+Expand a tar.gz file<br>
+`tar -xf <file.tar.gz>`
+
+Make a .tar.gz file<br>
+`tar -czf <filename>.tar.gz <file(s)>`
+
+Omit .git or extended attribute files (works on Linux, not on Macintosh)<br>
+`tar --exclude-vcs -czf <filename>.tar.gz <file(s)>`<br>
+`tar --no-xattrs -czf <filename>.tar.gz <file(s)>`
+<br>Better alternative: use gtar (gnu-tar)<br>
+`gtar -czf <filename>.tar.gz <file(s)>`
+
+View a .gz file<br>
+`zcat <file.gz> [| less]`
 
 <hr>
 
