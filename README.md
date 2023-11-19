@@ -140,6 +140,16 @@ Delete local branch<br>
 Delete remote branch<br>
 `git push origin --delete <branch-name>`
 
+Create a pull request from a development branch (or fork)<br>
+1. Create new branch (or fork) in GitHub
+2. `git pull` to local directory
+3. `git checkout <new branch>`
+4. Make changes
+5. `git add <changed files>`
+6. `git commit -m <description>`
+7. `git push`
+8. Create pull request in GitHub
+
 [Renaming 'master' to 'main'](https://github.com/github/renaming) (from local repository)<br>
 `git branch -m master main`
 <br>
