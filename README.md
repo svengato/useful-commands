@@ -382,6 +382,9 @@ Poor man's natural sort in SQL<br>
 
 #### System commands
 
+List files in current directory (l for details, a to include hidden files, t to sort by date & time)<br>
+`ls [-lat]`
+
 Check operating system<br>
 `cat /etc/os-release`
 <br>or<br>
@@ -421,7 +424,7 @@ Determine the current working directory<br>
 `pwd`
 
 Find all files in the directory whose name matches the pattern<br>
-`grep -rl <directory> -e <pattern>`
+`grep -rl [--exclude=<exclude_pattern>] <directory> -e <pattern>`
 
 Start/restart/stop service<br>
 `sudo systemctl [start|restart|stop] [httpd|shiny-server|...]`
@@ -434,6 +437,19 @@ Symbolic links: Show location of original files<br>
 
 Directory size<br>
 `du -sh <directory>`
+
+Check kernel version<br>
+`uname -r`
+
+Look up hostname or IP address<br>
+`nslookup <hostname>`
+`nslookup <ip_address>`
+
+Check graphics card<br>
+`lspci -vnn | grep VGA`
+
+Find files owned by user<br>
+`find <directory> -user <user>`
 
 <hr>
 
