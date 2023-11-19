@@ -376,6 +376,27 @@ Launch SQLite<br>
 Poor man's natural sort in SQL<br>
 `SELECT name FROM table ORDER BY LENGTH(name), name;`
 
+**MySQL**<br>
+```
+mysql <...>
+  show databases;
+  use <database>;
+  show tables;
+  \q
+mysqldump <...>
+```
+
+**PostgreSQL**<br>
+`psql`
+<br>Help<br>
+`\h`
+<br>List databases<br>
+`\l`
+<br>List tables in current database<br>
+`\dt`
+<br>Quit<br>
+`\q`
+
 <hr>
 
 <!-- ------------------------------ System commands ------------------------------ -->
