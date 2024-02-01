@@ -414,6 +414,9 @@ Reattach a session<br>
 Reattach the last session<br>
 `screen -x`
 
+Create a new window<br>
+`Ctrl-A C`
+
 Split screen vertically<br>
 `Ctrl-A S`
 
