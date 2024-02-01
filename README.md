@@ -157,6 +157,9 @@ Upload a local repository to GitHub<br>
 Show status for tracked files only<br>
 `git status -uno`
 
+Compare a file across different branches<br>
+`git diff <branch1> <branch2> -- <filename>`
+
 List branches<br>
 `git branch`
 
