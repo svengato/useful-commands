@@ -323,10 +323,6 @@ List Macintosh file attributes<br>
 Remove Macintosh file attributes<br>
 `xattr -d <attribute> <filename>`
 
-[More Macintosh commands](https://ss64.com/osx/)
-
-[Macintosh keyboard shortcuts](https://support.apple.com/en-us/HT201236)
-
 <hr>
 
 <!-- ------------------------------ NVIDIA ------------------------------ -->
@@ -497,12 +493,6 @@ Determine the current shell<br>
 Determine the default path to a program that has more than one version<br>
 `which <application>`
 
-Remove all instances of .DS_Store<br>
-`sudo find / -name ".DS_Store" -depth -exec rm {} \\;`
-
-Erase free space [from Macintosh command line](http://osxdaily.com/2016/04/28/erase-free-space-mac-command-line/) [obsolete, replaced by Disk Utility?]<br>
-`diskutil secureErase freespace <security-level> /Volumes/<drive>`
-
 Find all PDF files in ~/reading larger than 10 Mb<br>
 `find ~/reading -name *.pdf -size +10M -exec ls -lh {} \\; > ~/Desktop/large-pdfs.txt`
 
@@ -543,8 +533,20 @@ Check graphics card<br>
 Find files owned by user<br>
 `find <directory> -user <user>`
 
-Flush DNS cache (on Macintosh)
+#### Macintosh-specific
+
+Remove all instances of .DS_Store<br>
+`sudo find / -name ".DS_Store" -depth -exec rm {} \\;`
+
+Erase free space [from Macintosh command line](http://osxdaily.com/2016/04/28/erase-free-space-mac-command-line/) [obsolete, replaced by Disk Utility?]<br>
+`diskutil secureErase freespace <security-level> /Volumes/<drive>`
+
+Flush DNS cache<br>
 `sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder`
+
+[More Macintosh commands](https://ss64.com/osx/)
+
+[Macintosh keyboard shortcuts](https://support.apple.com/en-us/HT201236)
 
 <hr>
 
