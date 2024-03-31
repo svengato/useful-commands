@@ -543,6 +543,9 @@ Check graphics card<br>
 Find files owned by user<br>
 `find <directory> -user <user>`
 
+Flush DNS cache (on Macintosh)
+`sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder`
+
 <hr>
 
 <!-- ------------------------------ Tesseract ------------------------------ -->
