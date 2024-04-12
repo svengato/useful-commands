@@ -254,10 +254,10 @@ Make symbolic link to Java runtime from Homebrew (current version is 21)<br>
 #### JavaScript
 
 Open a URL in a new window<br>
-`<script> window.open(<url>, "_blank"); </script>`
+`window.open(<url>, "_blank");`
 
 Use jQuery to change display colors<br>
-`jQuery(document.body).css({'color': 'black', 'background-color': 'white'});`
+`jQuery(document.body).css({'color': 'yellow', 'background-color': 'darkblue'});`
 
 <hr>
 
