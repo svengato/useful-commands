@@ -533,6 +533,9 @@ Check graphics card<br>
 Find files owned by user<br>
 `find <directory> -user <user>`
 
+Search recent command history<br>
+`history | grep <search_keyword>`
+
 #### Macintosh-specific
 
 Remove all instances of .DS_Store<br>
