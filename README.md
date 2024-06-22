@@ -179,14 +179,7 @@ Create a pull request from a development branch (or fork)<br>
 7. `git push`
 8. Create pull request in GitHub
 
-[Renaming 'master' to 'main'](https://github.com/github/renaming) (from local repository)<br>
-`git branch -m master main`
-<br>
-`git fetch origin`
-<br>
-`git branch -u origin/main main`
-<br>
-`git remote set-head origin -a`
+[Rename a branch](https://github.com/github/renaming)
 
 Git branching and rebasing<br>
 https://git-scm.com/book/en/v2/Git-Branching-Rebasing
