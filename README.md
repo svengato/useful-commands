@@ -561,6 +561,8 @@ Optical character recognition on an image file<br>
 #### Text commands
 
 Replace text pattern in a file<br>
+`sed -i "s/<pattern>/<replacement>/g" <filename(s)>`
+<br>or<br>
 `perl -pi -e "s/<pattern>/<replacement>/g;" <filename(s)>`
 
 Convert a text file from UTF-16 to UTF-8 (or UTF-16BE, UTF-16LE, etc)<br>
