@@ -418,6 +418,9 @@ List available windows<br>
 Switch between windows<br>
 `Ctrl-A tab`
 
+Put window in scrollable mode (using arrow keys)<br>
+`Ctrl-A ESC`
+
 Destroy the current view<br>
 `Ctrl-A X`
 
