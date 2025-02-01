@@ -545,7 +545,7 @@ Flush DNS cache<br>
 
 [More Macintosh commands](https://ss64.com/osx/)
 
-[Macintosh keyboard shortcuts](https://support.apple.com/en-us/HT201236)
+[Macintosh keyboard shortcuts](https://support.apple.com/en-us/102650)
 
 <hr>
 
