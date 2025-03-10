@@ -189,6 +189,9 @@ https://medium.com/@gabriellamedas/git-rebase-and-git-rebase-onto-a6a3f83f9cce
 Turning off continuous integration steps<br>
 > Btw, there is a way to tell the CI not to run, which would be appropriate for these changes, by including some magic text in the commit message. I don't remember exactly what it is... instructions are probably [on GitHub somewhere](https://docs.github.com/en/actions/managing-workflow-runs/skipping-workflow-runs).
 
+Reset GitHub credentials<br>
+`git config --global --unset credential.helper`
+
 <hr>
 
 <!-- ------------------------------ Homebrew ------------------------------ -->
