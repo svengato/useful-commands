@@ -286,7 +286,7 @@ To eliminate the "You don't have permission to write to the folder ..." problem 
 `xattr -r -d com.apple.quarantine ./*`<br>
 `defaults write com.apple.TextEdit ApplePersistence -bool no`
 
-To make Apple e-mail (eml) files searchable [(instructions)](http://ars-codia.raphaelbauer.com/2010/12/index-eml-files-using-spotlight-in-mac.html)<br>
+To make Apple e-mail (eml) files searchable [(instructions)](https://ars-codia.raphaelbauer.com/2010/12/index-eml-files-using-spotlight-in-mac.html)<br>
 1. Open Terminal application (in folder /Applications/Utilities )<br>
 2. Go to library directory using the following command in Terminal<br>
 `cd /System/Library/Spotlight/RichText.mdimporter/Contents`
@@ -540,7 +540,7 @@ Search recent command history<br>
 Remove all instances of .DS_Store<br>
 `sudo find / -name ".DS_Store" -depth -exec rm {} \\;`
 
-Erase free space [from Macintosh command line](http://osxdaily.com/2016/04/28/erase-free-space-mac-command-line/) [obsolete, replaced by Disk Utility?]<br>
+Erase free space [from Macintosh command line](https://osxdaily.com/2016/04/28/erase-free-space-mac-command-line/) [obsolete, replaced by Disk Utility?]<br>
 `diskutil secureErase freespace <security-level> /Volumes/<drive>`
 
 Flush DNS cache<br>
