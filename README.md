@@ -32,6 +32,9 @@
 Extract from zip archive<br>
 `unzip -q <source.zip> -d <destination directory>`
 
+Extract from a .gz file without erasing it<br>
+`gunzip -k <source.gz>`
+
 Expand a tar.gz file<br>
 `tar -xf <file.tar.gz>`
 
