@@ -496,7 +496,7 @@ Determine the default path to a program that has more than one version<br>
 `which <application>`
 
 Find all PDF files in ~/reading larger than 10 Mb<br>
-`find ~/reading -name *.pdf -size +10M -exec ls -lh {} \\; > ~/Desktop/large-pdfs.txt`
+`find ~/reading -name "*.pdf" -size +10M -exec ls -lh {} \\; > ~/Desktop/large-pdfs.txt`
 
 Download a file and preserve its timestamp (timestamp may disagree with file history?)<br>
 `curl -OR <filename>`
