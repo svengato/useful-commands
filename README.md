@@ -16,6 +16,7 @@
 [Octave](#octave)<br>
 [OpenSSH](#openssh)<br>
 [Python](#python)<br>
+[Rust](#rust)<br>
 [screen](#screen)<br>
 [SQL](#sql)<br>
 [System commands](#system-commands)<br>
@@ -390,6 +391,24 @@ Secure upload<br>
 
 Install required modules<br>
 `pip[3] install -r requirements.txt`
+
+<hr>
+
+<!-- ------------------------------ Rust ------------------------------ -->
+
+#### Rust
+
+Install using rustup<br>
+`curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
+
+Updates<br>
+`rustup update`
+
+Uninstall<br>
+`rustup self uninstall`
+
+[Rust installation](https://www.rust-lang.org/tools/install)
+&bull; [The rustup Book](https://rust-lang.github.io/rustup/)
 
 <hr>
 
