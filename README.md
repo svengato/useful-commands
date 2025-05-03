@@ -323,6 +323,16 @@ List Macintosh file attributes<br>
 Remove Macintosh file attributes<br>
 `xattr -d <attribute> <filename>`
 
+Rebuild the Spotlight index (may take a long time)<br>
+```
+sudo mdutil -Ea
+sudo mdutil -i off
+sudo mdutil -i on
+```
+
+Confirm that Spotlight indexing is enabled
+`mdutil -as`
+
 <hr>
 
 <!-- ------------------------------ NVIDIA ------------------------------ -->
