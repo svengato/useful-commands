@@ -420,6 +420,15 @@ Uninstall<br>
 [Rust installation](https://www.rust-lang.org/tools/install)
 &bull; [The rustup Book](https://rust-lang.github.io/rustup/)
 
+Create a binary (application) crate<br>
+`cargo new <crate_name> [--bin]`
+
+Create a library crate<br>
+`cargo new <crate_name> --lib`
+
+Erase the current project's target subdirectory<br>
+`cargo clean`
+
 <hr>
 
 <!-- ------------------------------ screen ------------------------------ -->
