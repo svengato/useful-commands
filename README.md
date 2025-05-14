@@ -417,9 +417,6 @@ Updates<br>
 Uninstall<br>
 `rustup self uninstall`
 
-[Rust installation](https://www.rust-lang.org/tools/install)
-&bull; [The rustup Book](https://rust-lang.github.io/rustup/)
-
 Create a binary (application) crate<br>
 `cargo new <crate_name> [--bin]`
 
