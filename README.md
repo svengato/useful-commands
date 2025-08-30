@@ -33,6 +33,9 @@
 Extract from zip archive<br>
 `unzip -q <source.zip> -d <destination directory>`
 
+List contents of a zip archive<br>
+`unzip -l <source.zip>`
+
 Extract from a .gz file without erasing it<br>
 `gunzip -k <source.gz>`
 
