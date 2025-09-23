@@ -95,6 +95,9 @@ View a binary file<br>
 Convert Graphviz .dot to .svg<br>
 `dot -Tsvg <dot-filename> -o <svg-filename>`
 
+Convert Postscript (.ps) to PDF<br>
+`ps2pdf <ps-filename>`
+
 #### File viewing and editing (Macintosh)
 
 Open a file with TextEdit<br>
@@ -339,7 +342,7 @@ sudo mdutil -i off
 sudo mdutil -i on
 ```
 
-Confirm that Spotlight indexing is enabled
+Confirm that Spotlight indexing is enabled<br>
 `mdutil -as`
 
 <hr>
