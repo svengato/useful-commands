@@ -585,6 +585,9 @@ Find files owned by user<br>
 Search recent command history<br>
 `history | grep <search_keyword>`
 
+Set a file's timestamp to that of another file<br>
+`touch -r <another-filename> <filename>`
+
 #### Macintosh-specific
 
 Remove all instances of .DS_Store<br>
