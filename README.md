@@ -173,6 +173,10 @@ Compare a file across different branches<br>
 List branches<br>
 `git branch`
 
+Merge `branch2` into `branch1`<br>
+`git checkout branch1` (if necessary)<br>
+`git merge branch2`
+
 Delete local branch<br>
 `git branch -d <branch-name>`
 
