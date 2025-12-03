@@ -461,7 +461,7 @@ Reattach the last session<br>
 `screen -x`
 
 Create a new window<br>
-`Ctrl-A C`
+`Ctrl-A c`
 
 Split screen vertically<br>
 `Ctrl-A S`
