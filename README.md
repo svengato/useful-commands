@@ -72,10 +72,10 @@ List cron table<br>
 
 #### FFmpeg
 
-Use ffmpeg to convert a video<br>
+Convert a video<br>
 `ffmpeg -i <original-movie> [-strict -2] <copy-of-movie-in-new-format>`
 
-Use ffmpeg to extract part of a video<br>
+Extract part of a video<br>
 `ffmpeg -ss <start-time-in-seconds> -i <original-movie> -t <duration-in-seconds> -c copy <new-movie>`
 
 Rescale a video<br>
