@@ -81,6 +81,9 @@ Use ffmpeg to extract part of a video<br>
 Rescale a video<br>
 `ffmpeg -i <original-movie> -vf scale=<width>:<height>,setsar=1:1 <rescaled-movie>`
 
+Convert AVIF to JPEG files (for example)<br>
+`mkdir jpg; for f in *.avif; do ffmpeg -i "$f" "jpg/${f%.avif}.jpg"; done`
+
 [More commands](https://catswhocode.com/ffmpeg-commands/)
 
 <hr>
