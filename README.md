@@ -134,6 +134,9 @@ Set local configuration<br>
 <br>
 `git config user.email user@client.com`
 
+Remove a configuration setting<br>
+`git config [--global] --unset <setting>`
+
 Create a local repository (in your project directory)<br>
 `git init`
 
