@@ -153,8 +153,8 @@ Revert unwanted staged (added) files to unstaged<br>
 Commit files<br>
 `git commit -m "<details>"`
 
-View the commit history<br>
-`git log`
+View the commit history (`-p` to show all changes)<br>
+`git log [-p]`
 
 Revert any changes since the last commit (if not already staged)<br>
 `git checkout -- <filename(s)>`
