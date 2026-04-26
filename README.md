@@ -266,7 +266,7 @@ Unpin a package to allow upgrades<br>
 View the contents of a Java .jar archive<br>
 `jar tf <jar-file>`
 
-Make symbolic link to Java runtime from Homebrew (current version is 21)<br>
+Make symbolic link to Java runtime from Homebrew<br>
 `sudo ln -sfn /opt/homebrew/opt/openjdk@<version>/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-<version>.jdk`
 
 <hr>
