@@ -248,6 +248,9 @@ Check reverse package dependencies<br>
 Uninstall a package<br>
 `brew uninstall <package>`
 
+List installed packages [casks]<br>
+`brew list [--cask]`
+
 Remove obsolete package dependencies<br>
 `brew autoremove`
 
