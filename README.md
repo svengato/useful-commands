@@ -612,6 +612,9 @@ Erase free space [from Macintosh command line](https://osxdaily.com/2016/04/28/e
 Flush DNS cache<br>
 `sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder`
 
+Test network quality<br>
+`networkQuality`
+
 [More Macintosh commands](https://ss64.com/osx/)
 
 [Macintosh keyboard shortcuts](https://support.apple.com/en-us/102650)
