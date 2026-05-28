@@ -101,6 +101,10 @@ Convert Graphviz .dot to .svg<br>
 Convert Postscript (.ps) to PDF<br>
 `ps2pdf <ps-filename>`
 
+Reduce size of a PDF file (using Ghostscript)<br>
+`gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile=<output-filename> <input-filename>`<br>
+(or `/prepress` or `/screen` for larger or smaller files)
+
 #### File viewing and editing (Macintosh)
 
 Open a file with TextEdit<br>
